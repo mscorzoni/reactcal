@@ -9,6 +9,7 @@ gem 'puma', '~> 3.11'
 gem 'webpacker'
 gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'react-rails', '~> 2.4', '>= 2.4.7'
 
 group :development, :test do
 
