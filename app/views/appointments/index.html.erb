@@ -1,3 +1,14 @@
 <h1>React Calendar</h1>
 <h2>Appointments</h2>
 <h3>Make an appointment</h3>
+
+<%= simple_form_for @appointment do |f|  %>
+  <%= f.input :title  %>
+  <%= f.input :appt_time %>
+  <%= f.button :submit, 'Make an appointment' %>
+<% end %>
+
+<% @appointments.each do |a|  %>
+  <h3><%= a.title  %></h3>
+  <p><%= a.appt_time  %></p>
+<% end  %>
