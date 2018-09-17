@@ -10,6 +10,7 @@ gem 'webpacker'
 gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'react-rails', '~> 2.4', '>= 2.4.7'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 
 group :development, :test do
 
